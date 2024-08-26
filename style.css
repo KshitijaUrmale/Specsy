@@ -1,0 +1,133 @@
+ *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Works_Sans;
+ }
+ html,body{
+    width:100%;
+    height:100%;
+ }
+ #main{
+    width:100%;
+    height:100%;
+    background-color: rgb(238, 230, 215);
+ }
+ nav{
+     width:100%;
+     height:90px;
+     /* background-color: rgb(223, 221, 217); */
+     display: flex;
+     align-items: center;
+     justify-content:space-between;
+     padding: 0px 40px;
+       }
+       #nav-part1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+}
+       .gola1{
+        height: 30px;
+        width:30px;
+        background-color: rgb(194, 173, 141);
+        border-radius: 50%;
+       }
+       .gola2{
+        height: 30px;
+        width:30px;
+        background-color: rgb(149, 58, 58);
+        border-radius: 50%;
+       }
+       #nav-part2{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        gap: 40px;
+       }
+       #nav-part2 h4{
+        font-size: 30px;
+        font-weight: 600;
+       }
+       #nav-part2 h4 span{
+        color: rgb(198, 83, 129);
+ }
+       #nav2{
+        font-size: 30px;
+        height: 50px;
+        width:100%;
+        font-weight: 400;
+        /* background-color: antiquewhite; */
+        display: flex;
+        align-items: center;
+        /* justify-content:space-between; */
+         gap:40px;
+         padding: 0px 40px;
+         font-family:Playfair_display;
+
+       }
+       #nav2 h5{
+         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       }
+       #Content{
+        height: 82%;
+        width:100%;
+        /* background-color: blanchedalmond; */
+
+       }
+       #text-content{
+        /* background-color: rgb(228, 182, 118); */
+        height: 45%;
+        width:100%;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        
+          
+        
+         }
+         #text-content::-webkit-scrollbar{
+            background-color:transparent;
+         }
+         #text-content::-webkit-scrollbar-thumb{
+            background-color: orangered;
+         
+         }
+       .elem{
+         flex-shrink: 0;
+        height:100%;
+        width:70%;
+        /* background-color: brown; */
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        
+  
+       }
+       .elem h1{
+
+        font-size: 170px;
+        font-weight: 400;
+        color: rgb(2, 14, 26);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       }
+       #image-content{
+        height:61%;
+        width:100%;
+        /* background-color: plum; */
+         display: flex;
+         overflow-x: auto;
+       }
+       #image-content::-webkit-scrollbar{
+         display: none;
+       }
+       #image-content img{
+        flex-shrink: 0;
+        width:100%;
+        height:100%;
+        /* object-fit:cover; */
+
+          }
+
+       
